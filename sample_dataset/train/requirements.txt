@@ -1,0 +1,6 @@
+fitz
+PyMuPDF
+scikit-learn
+joblib
+pandas
+jsonschema

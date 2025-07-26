@@ -1,0 +1,11 @@
+pymupdf
+scikit-learn
+pandas
+joblib
+psutil
+jsonschema
+notebook         # or jupyter
+ipywidgets       # for interactive dropdowns in Jupyter
+ipython
+pdfplumber
+pytesseract

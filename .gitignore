@@ -1,0 +1,42 @@
+# 🐍 Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.sqlite3
+*.db
+
+# 📦 Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# 🔍 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 📤 Output files (auto-generated JSON)
+sample_dataset/outputs/
+
+# 🧠 ML model artifacts
+model/*.joblib
+
+# 📄 PDF files (if sample_dataset/pdfs is temporary or sensitive)
+# Uncomment the line below if you want to exclude PDFs too
+# sample_dataset/pdfs/
+
+# 🔍 Schema validation reports or debug logs
+*.schema.log
+*.debug.log
+
+# 💻 OS or Editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 🔐 Optional - Environment variables or secrets (if you add any)
+.env
